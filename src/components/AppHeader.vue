@@ -1,6 +1,15 @@
 <script>
+
+import { state } from '../state.js'
+
 export default {
     name: 'AppHeader',
+    data() {
+        return {
+            state,
+            active: '',
+        }
+    }
 }
 </script>
 
@@ -13,14 +22,14 @@ export default {
                     <img src="../assets/img/white-logo-2.png" alt="Logo">
                 </a>
                 <div class="" id="">
-                    <div class="navbar-nav">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        <a class="nav-link" aria-current="page" href="#">About</a>
-                        <a class="nav-link" aria-current="page" href="#">Services</a>
-                        <a class="nav-link" aria-current="page" href="#">Blog</a>
-                        <a class="nav-link" aria-current="page" href="#">Contact</a>
-                        <a class="nav-link" aria-current="page" href="#">Portfolio</a>
-                        <div>
+                    <div class="navbar-nav gap-4">
+
+                        <a v-for="(voice, index) in state.menu_voices" @click="active = index"
+                            :class="active === index ? 'selected' : ''" class="nav-link" aria-current="page" href="#">{{
+                                voice.name }}</a>
+
+
+                        <div class="">
                             <button class="btn btn-primary rounded-pill btn_focus">Sign In</button>
                         </div>
 
