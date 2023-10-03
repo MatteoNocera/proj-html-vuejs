@@ -1,0 +1,24 @@
+:root {
+    --corp-land-white: #ffffff;
+    --corp-land-light: #bbbbbb;
+    --corp-land-attention-dark: #527ceb;
+    --corp-land-attention-light: #03a7d3e6;
+    --corp-land-danger-light: #f9636b;
+    --corp-land-danger-dark: #b6246e;
+    --corp-land-dark: #333333;
+
+}
+
+.container {
+    max-width: 1440px;
+}
+
+.btn_attention {
+    background-color: var(--corp-land-danger-light);
+    border: none;
+}
+
+.btn_focus {
+    background-color: var(--corp-land-attention-light);
+    border: none;
+}

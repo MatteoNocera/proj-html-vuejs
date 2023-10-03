@@ -62,7 +62,32 @@ export default {
                 </div>
             </div>
 
-            <div class="bottom_footer">
+            <div class="bottom_footer d-flex justify-content-between py-5 align-items-center">
+
+                <p class="m-0">© 2020 Phlo. All Rights Reserved.</p>
+
+                <div class="d-flex gap-4 align-items-center">
+
+                    <a href="#">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                    <a href="#">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+                    <a href="#">
+                        <i class="bi bi-facebook"></i>
+                    </a>
+                    <a class="me-3" href="#">
+                        <i class="bi bi-twitter"></i>
+                    </a>
+                    <a id="arrow" href="#app_header">
+                        <i class="bi bi-arrow-up-circle-fill"></i>
+                    </a>
+                    <a id="message" href="#app_header">
+                        <i class="bi bi-chat-square"></i>
+                    </a>
+
+                </div>
 
             </div>
         </div>
