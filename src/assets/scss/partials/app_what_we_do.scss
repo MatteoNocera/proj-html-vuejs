@@ -1,0 +1,12 @@
+@use '../partials/variables.scss' as *;
+
+#what_we_do {
+
+    h6 {
+        color: var(--corp-land-danger-light)
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+}

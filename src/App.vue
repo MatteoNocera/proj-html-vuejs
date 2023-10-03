@@ -2,6 +2,7 @@
 
 import AppFooter from './components/AppFooter.vue';
 import AppHeader from './components/AppHeader.vue'
+import WhatWeDo from './components/WhatWeDo.vue';
 
 export default {
   name: 'App',
@@ -12,7 +13,8 @@ export default {
   },
   components: {
     AppHeader,
-    AppFooter
+    AppFooter,
+    WhatWeDo,
   }
 }
 </script>
@@ -20,9 +22,7 @@ export default {
 <template>
   <AppHeader></AppHeader>
 
-  <section id="what_we_do">
-
-  </section>
+  <WhatWeDo></WhatWeDo>
 
   <section id="grow">
 
