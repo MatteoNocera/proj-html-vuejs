@@ -5,4 +5,5 @@
 # Mercoledì 4
 - Popolare il main e rifinire lo stile
 # Giovedì 5
+- Inserire il carosello
 - Creare effetti all'hover

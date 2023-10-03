@@ -1,13 +1,22 @@
 <script>
+
+import AppHeader from './components/AppHeader.vue'
+
 export default {
   name: 'App',
+  data() {
+    return {
+
+    }
+  },
+  components: {
+    AppHeader,
+  }
 }
 </script>
 
 <template>
-  <div class="text-success">
-    ciao
-  </div>
+  <AppHeader></AppHeader>
 </template>
 
 <style ></style>
