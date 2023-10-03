@@ -1,7 +1,13 @@
-<script >
-
+<script>
+export default {
+  name: 'App',
+}
 </script>
 
-<template></template>
+<template>
+  <div class="text-success">
+    ciao
+  </div>
+</template>
 
 <style ></style>
