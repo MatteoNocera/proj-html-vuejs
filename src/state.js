@@ -22,5 +22,33 @@ export const state = reactive({
         {
             name: 'Portfolio'
         },
-    ]
+    ],
+    quick_links: [
+        {
+            voice: 'Services'
+        },
+        {
+            voice: 'Contact'
+        },
+        {
+            voice: 'Blog'
+        },
+    ],
+    resources_links: [
+        {
+            voice: 'Art Design'
+        },
+        {
+            voice: 'Computer'
+        },
+        {
+            voice: 'IT News'
+        },
+        {
+            voice: 'Networking'
+        },
+        {
+            voice: 'Web Security'
+        }
+    ],
 })
