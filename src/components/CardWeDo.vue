@@ -21,8 +21,8 @@ export default {
 
 <template>
     <div class="col my-5">
-        <div class="card" style="width:18rem;">
-            <img :src="getImagePath(path)" alt="...">
+        <div class="card h-100" style="width:18rem;">
+            <img :src="getImagePath(path)" :alt="title">
             <div class="card-body">
                 <h5 class="card-title my-4">{{ title }}</h5>
 

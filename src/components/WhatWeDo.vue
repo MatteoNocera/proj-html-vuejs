@@ -41,7 +41,7 @@ export default {
         <div class="container">
 
             <div class="text-center">
-                <h6 class="mt-5">Our Services</h6>
+                <h6 class="pt-5">Our Services</h6>
                 <h2><span class="fw-bold">What </span>We Do</h2>
                 <p>
                     When, while the lovely valley teems with vapour around meand the
@@ -55,8 +55,8 @@ export default {
 
             </div>
 
-            <div class="d-flex justify-content-center">
-                <button class="btn btn-danger rounded-pill btn_attention my-5">View All Services</button>
+            <div class="d-flex justify-content-center py-5">
+                <button class="btn btn-danger rounded-pill btn_attention">View All Services</button>
             </div>
 
 

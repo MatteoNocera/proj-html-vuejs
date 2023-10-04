@@ -16,7 +16,7 @@ export default {
         <div class="container">
             <div class="top_footer">
 
-                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 justify-content-between g-5">
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 justify-content-between">
 
                     <div class="col">
                         <a class="mb-3" href="#">

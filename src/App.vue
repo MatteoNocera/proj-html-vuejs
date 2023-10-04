@@ -4,6 +4,7 @@ import AppFooter from './components/AppFooter.vue';
 import AppHeader from './components/AppHeader.vue'
 import AppGrow from './components/AppGrow.vue';
 import WhatWeDo from './components/WhatWeDo.vue';
+import LatestWork from './components/LatestWork.vue';
 
 export default {
   name: 'App',
@@ -17,6 +18,7 @@ export default {
     AppFooter,
     WhatWeDo,
     AppGrow,
+    LatestWork,
   }
 }
 </script>
@@ -28,9 +30,7 @@ export default {
 
   <AppGrow></AppGrow>
 
-  <section id="latest_work">
-
-  </section>
+  <LatestWork></LatestWork>
 
   <section id="pricing">
 

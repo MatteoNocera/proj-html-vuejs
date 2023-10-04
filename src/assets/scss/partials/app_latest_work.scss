@@ -1,0 +1,44 @@
+@use '../partials/variables.scss' as *;
+
+#latest_work {
+
+    background-color: var(--corp-land-back-light);
+
+    a {
+        color: var(--corp-land-danger-light);
+    }
+
+    h6 {
+        color: var(--corp-land-danger-light)
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    .card {
+        border-radius: 0.5rem;
+        border: none;
+
+        img {
+            border-radius: 0.5rem;
+        }
+
+        h5 {
+            font-size: 0.9rem;
+            margin: 0;
+        }
+
+        p {
+            font-size: 0.8rem;
+            color: var(--corp-land-light);
+        }
+
+    }
+
+    #dot {
+        a {
+            color: var(--corp-land-light);
+        }
+    }
+}

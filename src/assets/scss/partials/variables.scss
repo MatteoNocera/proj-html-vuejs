@@ -6,7 +6,12 @@
     --corp-land-danger-light: #f9636b;
     --corp-land-danger-dark: #b6246e;
     --corp-land-dark: #333333;
+    --corp-land-back-light: #e0e0e0;
 
+}
+
+body {
+    overflow-x: hidden;
 }
 
 .container {

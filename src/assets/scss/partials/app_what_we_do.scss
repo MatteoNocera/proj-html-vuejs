@@ -2,6 +2,8 @@
 
 #what_we_do {
 
+    background-color: var(--corp-land-back-light);
+
     h6 {
         color: var(--corp-land-danger-light)
     }
@@ -14,6 +16,7 @@
 
         text-align: center;
         border: none;
+        background-color: var(--corp-land-back-light);
 
         h5 {
             font-weight: bold;
@@ -22,6 +25,8 @@
 
         img {
             padding: 3rem;
+            width: 100%;
+            aspect-ratio: 1 / 1;
         }
     }
 }
