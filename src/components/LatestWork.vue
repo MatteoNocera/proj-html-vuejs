@@ -73,16 +73,16 @@ export default {
         </div>
 
         <div id="dot" class="d-flex justify-content-center py-5">
-            <a href="#">
+            <a class="selected_work" href="#latest_work">
                 <i class="bi bi-dot"></i>
             </a>
-            <a href="#">
+            <a href="#latest_work">
                 <i class="bi bi-dot"></i>
             </a>
-            <a href="#">
+            <a href="#latest_work">
                 <i class="bi bi-dot"></i>
             </a>
-            <a href="#">
+            <a href="#latest_work">
                 <i class="bi bi-dot"></i>
             </a>
         </div>

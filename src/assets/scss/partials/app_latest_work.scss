@@ -43,6 +43,12 @@
     #dot {
         a {
             color: var(--corp-land-light);
+
+        }
+
+        .selected_work {
+
+            color: var(--corp-land-danger-light);
         }
     }
 }
