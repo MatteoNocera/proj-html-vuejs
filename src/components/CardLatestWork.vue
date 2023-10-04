@@ -29,8 +29,4 @@ export default {
     </div>
 </template>
 
-<style lang="scss">
-.col {
-    translate: -10rem 0;
-}
-</style>
+<style lang="scss"></style>

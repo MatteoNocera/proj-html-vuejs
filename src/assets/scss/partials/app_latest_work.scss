@@ -4,6 +4,10 @@
 
     background-color: var(--corp-land-back-light);
 
+    .col {
+        translate: -50% 0;
+    }
+
     a {
         color: var(--corp-land-danger-light);
     }
