@@ -15,9 +15,10 @@ export default {
                 </div>
 
                 <div class="col-5">
-                    <h2 class="fw-bold">Business Planning</h2>
-                    <h2 class="fw-medium">Digital Technology</h2>
-                    <h2 class="fw-bold">Modern Solution !</h2>
+                    <h6>Start Your Project</h6>
+                    <h2 class="fw-bold">Grow Your Business</h2>
+                    <h2 class="fw-medium">With Our Strategy</h2>
+
                     <p>
                         When, while the lovely valley teems with vapour around meand the meridian sun strikes the upper
                         surface of the impenetrable follage of my trees, and but a few stray gleams steal into the inner

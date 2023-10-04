@@ -8,6 +8,10 @@
     img {
         max-width: 100%;
         padding: 8rem;
+
+        background-image: url(/src/assets/img/nemoodar.png);
+        background-repeat: no-repeat;
+        background-position: left;
     }
 
     h2 {
@@ -19,5 +23,9 @@
         color: var(--corp-land-attention-light);
         margin-top: 3rem;
         margin-bottom: 4rem;
+    }
+
+    h6 {
+        color: var(--corp-land-light);
     }
 }
