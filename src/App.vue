@@ -2,6 +2,7 @@
 
 import AppFooter from './components/AppFooter.vue';
 import AppHeader from './components/AppHeader.vue'
+import AppGrow from './components/AppGrow.vue';
 import WhatWeDo from './components/WhatWeDo.vue';
 
 export default {
@@ -15,6 +16,7 @@ export default {
     AppHeader,
     AppFooter,
     WhatWeDo,
+    AppGrow,
   }
 }
 </script>
@@ -24,9 +26,7 @@ export default {
 
   <WhatWeDo></WhatWeDo>
 
-  <section id="grow">
-
-  </section>
+  <AppGrow></AppGrow>
 
   <section id="latest_work">
 
