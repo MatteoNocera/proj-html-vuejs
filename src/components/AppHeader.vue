@@ -1,6 +1,7 @@
 <script>
 
 import { state } from '../state.js'
+import AppJumbo from './AppJumbo.vue';
 
 export default {
     name: 'AppHeader',
@@ -9,6 +10,9 @@ export default {
             state,
             active: '',
         }
+    },
+    components: {
+        AppJumbo,
     }
 }
 </script>
@@ -38,7 +42,10 @@ export default {
             </div>
         </nav>
 
-        <div id="jumbotron" class="container pb-5">
+
+        <AppJumbo></AppJumbo>
+
+        <!-- <div id="jumbotron" class="container pb-5">
             <div class="row align-items-center">
 
                 <div class="col-5">
@@ -60,7 +67,7 @@ export default {
                     <img src="../assets/img/header.png" alt="men on desk">
                 </div>
             </div>
-        </div>
+        </div> -->
 
     </header>
 </template>
