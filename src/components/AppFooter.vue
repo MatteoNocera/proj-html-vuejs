@@ -19,7 +19,7 @@ export default {
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 justify-content-between g-5">
 
                     <div class="col">
-                        <a href="#">
+                        <a class="mb-3" href="#">
                             <img src="../assets/img/white-logo-2.png" alt="logo">
                         </a>
                         <p class="mt-5">
@@ -29,7 +29,7 @@ export default {
                     </div>
 
                     <div class="col" id="quick">
-                        <h2 class="text-white">Quick Links</h2>
+                        <h2 class="text-white mb-4">Quick Links</h2>
                         <ul class="list-unstyled">
                             <li v-for="link in state.quick_links">
                                 <a href="#">{{ link.voice }}</a>
@@ -40,7 +40,7 @@ export default {
 
 
                     <div class="col" id="resouces">
-                        <h2 class="text-white">Resources</h2>
+                        <h2 class="text-white mb-4">Resources</h2>
                         <ul class="list-unstyled">
                             <li class="text-center" v-for="link in state.resources_links">
                                 <a href="#">{{ link.voice }}</a>
@@ -49,7 +49,7 @@ export default {
                     </div>
 
                     <div class="col" id="contact">
-                        <h2 class="text-white">Contact Us</h2>
+                        <h2 class="text-white mb-4">Contact Us</h2>
 
                         <p><span class="text-white">Address : </span> Patricia C. Arnedee 4401 Waldeck<br>Street Grapevine
                             Nashville, Tx 76051</p>
