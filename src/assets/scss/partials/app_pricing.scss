@@ -1,0 +1,80 @@
+@use '../partials/variables.scss' as *;
+
+#pricing {
+
+    background-color: #0b1953;
+    background-image: linear-gradient(#0b1953, #01012f);
+
+    margin-bottom: -15rem;
+
+    h6 {
+        color: var(--corp-land-danger-light)
+    }
+
+    h2 {
+        font-size: 3rem;
+        color: var(--corp-land-white);
+    }
+
+    .title p {
+        color: var(--corp-land-white);
+        margin: 0;
+
+    }
+
+    #reverse_card {
+
+        .card {
+            background-color: var(--corp-land-danger-dark);
+            color: var(--corp-land-white);
+
+            .cost {
+                color: var(--corp-land-danger-light);
+            }
+
+            button {
+
+                background-color: var(--corp-land-white);
+
+                p {
+                    margin: 0;
+                    color: var(--corp-land-danger-light);
+                }
+            }
+        }
+    }
+
+    .card {
+
+        border-radius: 0.5rem;
+        width: 90%;
+
+        .cost {
+
+            color: var(--corp-land-back-light);
+            top: 0;
+            right: -4px;
+            font-size: 10rem;
+            font-weight: bold;
+            line-height: 60%;
+
+        }
+
+        .cost_number {
+            font-size: 5rem;
+            font-weight: bold;
+            margin: 0;
+
+            span {
+                font-size: 2rem;
+            }
+        }
+
+        button {
+            p {
+                margin: 0;
+                color: var(--corp-land-white);
+            }
+        }
+    }
+}

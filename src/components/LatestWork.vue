@@ -74,16 +74,16 @@ export default {
 
         <div id="dot" class="d-flex justify-content-center py-5">
             <a class="selected_work" href="#latest_work">
-                <i class="bi bi-dot"></i>
+                <i class="bi bi-dot" style="font-size: 2rem;"></i>
             </a>
             <a href="#latest_work">
-                <i class="bi bi-dot"></i>
+                <i class="bi bi-dot" style="font-size: 2rem;"></i>
             </a>
             <a href="#latest_work">
-                <i class="bi bi-dot"></i>
+                <i class="bi bi-dot" style="font-size: 2rem;"></i>
             </a>
             <a href="#latest_work">
-                <i class="bi bi-dot"></i>
+                <i class="bi bi-dot" style="font-size: 2rem;"></i>
             </a>
         </div>
 
