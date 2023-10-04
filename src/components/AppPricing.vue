@@ -45,7 +45,7 @@ export default {
 
                             <div class="d-flex justify-content-center">
                                 <button
-                                    class="btn btn-danger rounded-pill btn_attention d-flex justify-content-around w-75">
+                                    class="btn btn-danger rounded-pill btn_attention d-flex justify-content-around w-50">
                                     <p>Order Now</p>
                                     <p>
                                         <i class="bi bi-arrow-right"></i>
@@ -85,7 +85,7 @@ export default {
 
                             <div class="d-flex justify-content-center">
                                 <button
-                                    class="btn btn-danger rounded-pill btn_attention d-flex justify-content-around w-75">
+                                    class="btn btn-danger rounded-pill btn_attention d-flex justify-content-around w-50">
                                     <p>Order Now</p>
                                     <p>
                                         <i class="bi bi-arrow-right"></i>
@@ -125,7 +125,7 @@ export default {
 
                             <div class="d-flex justify-content-center">
                                 <button
-                                    class="btn btn-danger rounded-pill btn_attention d-flex justify-content-around w-75">
+                                    class="btn btn-danger rounded-pill btn_attention d-flex justify-content-around w-50">
                                     <p>Order Now</p>
                                     <p>
                                         <i class="bi bi-arrow-right"></i>
