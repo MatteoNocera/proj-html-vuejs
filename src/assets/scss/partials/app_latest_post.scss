@@ -1,0 +1,15 @@
+@use '../partials/variables.scss' as *;
+
+#latest_post {
+
+    background-color: var(--corp-land-back-light);
+    padding-top: 25rem;
+
+    h6 {
+        color: var(--corp-land-danger-light)
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+}

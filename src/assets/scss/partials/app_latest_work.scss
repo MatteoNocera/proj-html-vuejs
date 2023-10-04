@@ -21,11 +21,18 @@
     }
 
     .card {
+
         border-radius: 0.5rem;
-        border: none;
+        border-color: var(--corp-land-back-light);
+
+        &:hover {
+            background-color: var(--corp-land-danger-light);
+
+        }
 
         img {
             border-radius: 0.5rem;
+            border-color: var(--corp-land-back-light);
         }
 
         h5 {

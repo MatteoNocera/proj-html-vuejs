@@ -40,7 +40,7 @@ export default {
     <section id="what_we_do">
         <div class="container">
 
-            <div class="text-center">
+            <div class="text-center col-6 m-auto">
                 <h6 class="pt-5">Our Services</h6>
                 <h2><span class="fw-bold">What </span>We Do</h2>
                 <p>
