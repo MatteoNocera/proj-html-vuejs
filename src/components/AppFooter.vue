@@ -15,7 +15,8 @@ export default {
     <footer id="app_footer">
         <div class="container">
             <div class="top_footer">
-                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 justify-content-between">
+
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 justify-content-between g-5">
 
                     <div class="col">
                         <a href="#">
@@ -36,6 +37,7 @@ export default {
                         </ul>
 
                     </div>
+
 
                     <div class="col" id="resouces">
                         <h2 class="text-white">Resources</h2>
@@ -61,7 +63,11 @@ export default {
 
                 </div>
             </div>
+        </div>
 
+        <hr>
+
+        <div class="container">
             <div class="bottom_footer d-flex justify-content-between py-5 align-items-center">
 
                 <p class="m-0">© 2020 Phlo. All Rights Reserved.</p>
@@ -91,6 +97,7 @@ export default {
 
             </div>
         </div>
+
     </footer>
 </template>
 
