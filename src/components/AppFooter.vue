@@ -18,7 +18,7 @@ export default {
 
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 justify-content-between">
 
-                    <div class="col">
+                    <div class="col px-4">
                         <a class="mb-3" href="#">
                             <img src="../assets/img/white-logo-2.png" alt="logo">
                         </a>
@@ -28,7 +28,7 @@ export default {
                         </p>
                     </div>
 
-                    <div class="col" id="quick">
+                    <div class="col px-4" id="quick">
                         <h2 class="text-white mb-4">Quick Links</h2>
                         <ul class="list-unstyled">
                             <li v-for="link in state.quick_links">
@@ -39,7 +39,7 @@ export default {
                     </div>
 
 
-                    <div class="col" id="resouces">
+                    <div class="col px-4" id="resouces">
                         <h2 class="text-white mb-4">Resources</h2>
                         <ul class="list-unstyled">
                             <li class="text-center" v-for="link in state.resources_links">
@@ -48,7 +48,7 @@ export default {
                         </ul>
                     </div>
 
-                    <div class="col" id="contact">
+                    <div class="col px-4" id="contact">
                         <h2 class="text-white mb-4">Contact Us</h2>
 
                         <p><span class="text-white">Address : </span> Patricia C. Arnedee 4401 Waldeck<br>Street Grapevine
