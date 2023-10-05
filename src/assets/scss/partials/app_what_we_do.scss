@@ -30,7 +30,8 @@
 
         a {
             display: none;
-            background-color: var(--corp-land-danger-dark);
+            background: rgb(182, 36, 110);
+            background: linear-gradient(90deg, rgba(182, 36, 110, 1) 0%, rgba(249, 99, 107, 1) 100%);
             padding: 1rem;
             border-radius: 50%;
             color: var(--corp-land-white);
