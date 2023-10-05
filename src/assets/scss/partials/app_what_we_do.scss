@@ -65,7 +65,9 @@
         }
 
         img {
+            object-fit: scale-down;
             height: 200px;
+            max-width: 80%;
             margin-bottom: -8rem;
             max-height: 300px;
             width: fit-content;
