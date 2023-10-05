@@ -67,7 +67,7 @@ export default {
 
         <hr>
 
-        <div class="container">
+        <div id="last" class="container">
             <div class="bottom_footer d-flex justify-content-between py-3 align-items-center">
 
                 <p class="m-0">© 2020 Phlo. All Rights Reserved.</p>
@@ -83,11 +83,11 @@ export default {
                     <a href="#">
                         <i class="bi bi-facebook"></i>
                     </a>
-                    <a class="me-3" href="#">
+                    <a class="" href="#">
                         <i class="bi bi-twitter"></i>
                     </a>
                     <a id="arrow" href="#app_header">
-                        <i class="bi bi-arrow-up-circle-fill" style="height: 60px;"></i>
+                        <i class="bi bi-arrow-up-circle-fill" style="font-size: 1.7rem;"></i>
                     </a>
                     <a id="message" href="#app_header">
                         <i class="bi bi-chat-square"></i>
