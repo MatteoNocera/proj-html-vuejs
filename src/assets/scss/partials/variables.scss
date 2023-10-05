@@ -1,8 +1,8 @@
 :root {
     --corp-land-white: #ffffff;
     --corp-land-light: #bbbbbb;
-    --corp-land-attention-dark: #527ceb;
-    --corp-land-attention-light: #03a7d3e6;
+    --corp-land-attention-dark: #1d3a7e;
+    --corp-land-attention-light: #04a4d1;
     --corp-land-danger-light: #f9636b;
     --corp-land-danger-dark: #b6246e;
     --corp-land-dark: #333333;
@@ -21,13 +21,17 @@ body {
 }
 
 .btn_attention {
-    background-color: var(--corp-land-danger-light);
+
     border: none;
+    background: rgb(182, 36, 110);
+    background: linear-gradient(90deg, rgba(182, 36, 110, 1) 0%, rgba(249, 99, 107, 1) 100%);
 }
 
 .btn_focus {
-    background-color: var(--corp-land-attention-light);
+
     border: none;
+    background: rgb(4, 164, 209);
+    background: linear-gradient(90deg, rgba(4, 164, 209, 1) 0%, rgba(29, 58, 126, 1) 100%);
 }
 
 .btn_white {

@@ -87,7 +87,7 @@ export default {
                         <i class="bi bi-twitter"></i>
                     </a>
                     <a id="arrow" href="#app_header">
-                        <i class="bi bi-arrow-up-circle-fill"></i>
+                        <i class="bi bi-arrow-up-circle-fill" style="height: 60px;"></i>
                     </a>
                     <a id="message" href="#app_header">
                         <i class="bi bi-chat-square"></i>

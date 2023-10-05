@@ -22,7 +22,7 @@
     .virgolette {
         font-size: 25rem;
         position: absolute;
-        top: -10rem;
+        top: -9rem;
         color: var(--corp-land-back-light);
     }
 
@@ -37,7 +37,8 @@
 
     .card_mail {
 
-        background-color: var(--corp-land-danger-dark);
+        background: rgb(182, 36, 110);
+        background: linear-gradient(148deg, rgba(182, 36, 110, 1) 0%, rgba(249, 99, 107, 1) 100%);
         border-radius: 1rem;
         color: var(--corp-land-white);
         box-shadow: 0px 0px 10px var(--corp-land-danger-light);

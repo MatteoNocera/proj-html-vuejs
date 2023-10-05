@@ -26,7 +26,7 @@ export default {
                             40
                         </div>
 
-                        <div class="card-body z-1">
+                        <div class="card-body z-1 py-5">
                             <h3 class="card-title fw-bold">Designing</h3>
                             <h5 class="card-text fs-6">PROCESS</h5>
                             <h3 class="cost_number">40<span>$</span></h3>
@@ -66,7 +66,7 @@ export default {
                             60
                         </div>
 
-                        <div class="card-body z-1">
+                        <div class="card-body z-1 py-5">
                             <h3 class="card-title fw-bold">Developing</h3>
                             <h5 class="card-text fs-6">PRODUCT</h5>
                             <h3 class="cost_number">60<span>$</span></h3>
@@ -84,8 +84,7 @@ export default {
 
 
                             <div class="d-flex justify-content-center">
-                                <button
-                                    class="btn btn-danger rounded-pill btn_attention d-flex justify-content-around w-50">
+                                <button class="btn btn_white rounded-pill d-flex justify-content-around w-50">
                                     <p>Order Now</p>
                                     <p>
                                         <i class="bi bi-arrow-right"></i>
@@ -106,7 +105,7 @@ export default {
                             80
                         </div>
 
-                        <div class="card-body z-1">
+                        <div class="card-body z-1 py-5">
                             <h3 class="card-title fw-bold">Supporting</h3>
                             <h5 class="card-text fs-6">CLIENTS</h5>
                             <h3 class="cost_number">80<span>$</span></h3>

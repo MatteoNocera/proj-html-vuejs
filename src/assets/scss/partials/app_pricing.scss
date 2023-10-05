@@ -25,12 +25,13 @@
     #reverse_card {
 
         .card {
-            background-color: var(--corp-land-danger-dark);
+            background: rgb(182, 36, 110);
+            background: linear-gradient(148deg, rgba(182, 36, 110, 1) 0%, rgba(249, 99, 107, 1) 100%);
             color: var(--corp-land-white);
             box-shadow: 0px 0px 10px var(--corp-land-danger-light);
 
             .cost {
-                color: var(--corp-land-danger-light);
+                color: #d8587f;
             }
 
             button {
@@ -57,7 +58,7 @@
             color: var(--corp-land-back-light);
             top: 0;
             right: -4px;
-            font-size: 10rem;
+            font-size: 13rem;
             font-weight: bold;
             line-height: 70%;
 
