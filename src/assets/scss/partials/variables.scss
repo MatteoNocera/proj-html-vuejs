@@ -24,6 +24,7 @@ body {
 .btn_attention {
 
     border: none;
+    color: var(--corp-land-white);
     background: rgb(182, 36, 110);
     background: linear-gradient(90deg, rgba(182, 36, 110, 1) 0%, rgba(249, 99, 107, 1) 100%);
 }
@@ -31,6 +32,7 @@ body {
 .btn_focus {
 
     border: none;
+    color: var(--corp-land-white);
     background: rgb(4, 164, 209);
     background: linear-gradient(90deg, rgba(4, 164, 209, 1) 0%, rgba(29, 58, 126, 1) 100%);
 }

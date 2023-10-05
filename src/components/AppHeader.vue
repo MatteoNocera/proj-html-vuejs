@@ -34,7 +34,7 @@ export default {
 
 
                         <div class="">
-                            <button class="btn btn-primary rounded-pill btn_focus">Sign In</button>
+                            <button class="btn rounded-pill btn_focus">Sign In</button>
                         </div>
 
                     </div>

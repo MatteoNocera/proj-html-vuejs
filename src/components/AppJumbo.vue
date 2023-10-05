@@ -18,8 +18,8 @@ export default {
                 </p>
 
                 <div class="d-flex gap-3">
-                    <button class="btn btn-danger rounded-pill btn_attention">Try It Now</button>
-                    <button class="btn btn-primary rounded-pill btn_focus">Explore more</button>
+                    <button class="btn rounded-pill btn_attention">Try It Now</button>
+                    <button class="btn rounded-pill btn_focus">Explore more</button>
                 </div>
 
             </div>

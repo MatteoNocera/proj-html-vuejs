@@ -56,7 +56,7 @@ export default {
             </div>
 
             <div class="d-flex justify-content-center py-5">
-                <button class="btn btn-danger rounded-pill btn_attention">View All Services</button>
+                <button class="btn rounded-pill btn_attention">View All Services</button>
             </div>
 
 
