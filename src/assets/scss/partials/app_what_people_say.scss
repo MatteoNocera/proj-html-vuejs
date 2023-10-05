@@ -1,7 +1,7 @@
 @use '../partials/variables.scss' as *;
 
 #what_people_say {
-    background-color: var(--corp-land-back-light);
+    background-color: var(--corp-land-white);
     padding-top: 4rem;
     margin-bottom: -7rem;
 
@@ -23,7 +23,7 @@
         font-size: 25rem;
         position: absolute;
         top: -10rem;
-        color: var(--corp-land-light);
+        color: var(--corp-land-back-light);
     }
 
     .card {
@@ -40,5 +40,6 @@
         background-color: var(--corp-land-danger-dark);
         border-radius: 1rem;
         color: var(--corp-land-white);
+        box-shadow: 0px 0px 10px var(--corp-land-danger-light);
     }
 }
