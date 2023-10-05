@@ -49,7 +49,7 @@ export default {
                     <div class="col">
 
                         <div class="card_only_text card h-100">
-                            <div class="card-body d-flex flex-column justify-content-between align-items-start">
+                            <div class="card-body d-flex flex-column justify-content-between align-items-start pb-4">
                                 <p class="card-text"><small>April 21,2019 - by Paul</small></p>
                                 <h5 class="card-title">Clearing Corporations get SEVI nod to invest in overnight funds</h5>
                                 <p class="card-text">When, while the lovely valley teams with vapor around me, and the
@@ -64,7 +64,7 @@ export default {
                     <div class="col">
 
                         <div class="card_only_text card h-100">
-                            <div class="card-body d-flex flex-column justify-content-between align-items-start">
+                            <div class="card-body d-flex flex-column justify-content-between align-items-start pb-4">
                                 <p class="card-text"><small>April 21,2019 - by Paul</small></p>
                                 <h5 class="card-title">Clearing Corporations get SEVI nod to invest in overnight funds</h5>
                                 <p class="card-text">When, while the lovely valley teams with vapor around me, and the
