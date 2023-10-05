@@ -29,7 +29,7 @@ export default {
                     </div>
 
                     <div class="col px-4" id="quick">
-                        <h2 class="text-white mb-4">Quick Links</h2>
+                        <h2 class="text-white mb-4 fw-bold">Quick Links</h2>
                         <ul class="list-unstyled">
                             <li v-for="link in state.quick_links">
                                 <a href="#">{{ link.voice }}</a>
@@ -40,7 +40,7 @@ export default {
 
 
                     <div class="col px-4" id="resouces">
-                        <h2 class="text-white mb-4">Resources</h2>
+                        <h2 class="text-white mb-4 fw-bold">Resources</h2>
                         <ul class="list-unstyled">
                             <li class="text-center" v-for="link in state.resources_links">
                                 <a href="#">{{ link.voice }}</a>
@@ -49,7 +49,7 @@ export default {
                     </div>
 
                     <div class="col px-4" id="contact">
-                        <h2 class="text-white mb-4">Contact Us</h2>
+                        <h2 class="text-white mb-4 fw-bold">Contact Us</h2>
 
                         <p><span class="text-white">Address : </span> Patricia C. Arnedee 4401 Waldeck<br>Street Grapevine
                             Nashville, Tx 76051</p>
@@ -68,7 +68,7 @@ export default {
         <hr>
 
         <div class="container">
-            <div class="bottom_footer d-flex justify-content-between py-5 align-items-center">
+            <div class="bottom_footer d-flex justify-content-between py-3 align-items-center">
 
                 <p class="m-0">© 2020 Phlo. All Rights Reserved.</p>
 
