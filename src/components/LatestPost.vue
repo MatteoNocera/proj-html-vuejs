@@ -28,7 +28,7 @@ export default {
                                 class="position-absolute bottom-0 pb-4 d-flex justify-content-center align-items-end gap-2">
                                 <div class="col-8">
                                     <p class="card-text"><small>April 21,2019 - by Paul</small></p>
-                                    <h5 class="card-title">Amazon gets CCI nod to acquire 49% stake in</h5>
+                                    <h5 class="card-title fw-bold">Amazon gets CCI nod to acquire 49% stake in</h5>
                                     <p class="card-text">When, while the lovely valley teams with vapor around me and the
                                         meridian
                                         sun ...</p>
@@ -51,7 +51,8 @@ export default {
                         <div class="card_only_text card h-100">
                             <div class="card-body d-flex flex-column justify-content-between align-items-start pb-4">
                                 <p class="card-text"><small>April 21,2019 - by Paul</small></p>
-                                <h5 class="card-title">Clearing Corporations get SEVI nod to invest in overnight funds</h5>
+                                <h5 class="card-title fw-bold">Clearing Corporations get SEVI nod to invest in overnight
+                                    funds</h5>
                                 <p class="card-text">When, while the lovely valley teams with vapor around me, and the
                                     meridian sun...
                                 </p>
@@ -66,7 +67,8 @@ export default {
                         <div class="card_only_text card h-100">
                             <div class="card-body d-flex flex-column justify-content-between align-items-start pb-4">
                                 <p class="card-text"><small>April 21,2019 - by Paul</small></p>
-                                <h5 class="card-title">Clearing Corporations get SEVI nod to invest in overnight funds</h5>
+                                <h5 class="card-title fw-bold">Clearing Corporations get SEVI nod to invest in overnight
+                                    funds</h5>
                                 <p class="card-text">When, while the lovely valley teams with vapor around me, and the
                                     meridian sun...
                                 </p>
