@@ -22,16 +22,17 @@
 
     .card {
 
-        border-radius: 0.5rem;
+        border-radius: 1rem;
         border-color: var(--corp-land-back-light);
 
         &:hover {
             background-color: var(--corp-land-danger-light);
-
+            color: var(--corp-land-white);
         }
 
         img {
-            border-radius: 0.5rem;
+            margin-bottom: 2rem;
+            border-radius: 1rem;
             border-color: var(--corp-land-back-light);
         }
 

@@ -12,4 +12,21 @@
     h2 {
         font-size: 3rem;
     }
+
+    .card,
+    img {
+        border-radius: 1rem;
+    }
+
+    .card-img-overlay {
+        height: 100%;
+        background-color: #0000007a;
+        border-radius: 1rem;
+    }
+
+    .card_only_text {
+        color: var(--corp-land-white);
+        background-color: #17316f;
+        background-image: linear-gradient(310deg, #17316f, #020230);
+    }
 }
