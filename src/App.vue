@@ -7,6 +7,7 @@ import WhatWeDo from './components/WhatWeDo.vue';
 import LatestWork from './components/LatestWork.vue';
 import AppPricing from './components/AppPricing.vue';
 import LatestPost from './components/LatestPost.vue';
+import WhatPeopleSay from './components/WhatPeopleSay.vue';
 
 export default {
   name: 'App',
@@ -23,6 +24,7 @@ export default {
     LatestWork,
     AppPricing,
     LatestPost,
+    WhatPeopleSay
   }
 }
 </script>
@@ -40,9 +42,7 @@ export default {
 
   <LatestPost></LatestPost>
 
-  <section id="what_people_say">
-
-  </section>
+  <WhatPeopleSay></WhatPeopleSay>
 
   <AppFooter></AppFooter>
 </template>

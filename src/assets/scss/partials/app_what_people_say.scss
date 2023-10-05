@@ -1,0 +1,44 @@
+@use '../partials/variables.scss' as *;
+
+#what_people_say {
+    background-color: var(--corp-land-back-light);
+    padding-top: 4rem;
+    margin-bottom: -7rem;
+
+    h6 {
+        color: var(--corp-land-danger-light)
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    .card img {
+
+        border-radius: 100%;
+        border: 5px solid var(--corp-land-danger-dark);
+    }
+
+    .virgolette {
+        font-size: 25rem;
+        position: absolute;
+        top: -10rem;
+        color: var(--corp-land-light);
+    }
+
+    .card {
+        background-color: transparent;
+        border: none;
+    }
+
+    .star i {
+        color: var(--corp-land-danger-dark)
+    }
+
+    .card_mail {
+
+        background-color: var(--corp-land-danger-dark);
+        border-radius: 1rem;
+        color: var(--corp-land-white);
+    }
+}
