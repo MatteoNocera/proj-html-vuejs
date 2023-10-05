@@ -2,7 +2,7 @@
 
 #latest_work {
 
-    background-color: var(--corp-land-back-light);
+    background-color: var(--corp-land-white);
     overflow-x: hidden;
 
     .col {
@@ -25,6 +25,7 @@
 
         border-radius: 1rem;
         border-color: var(--corp-land-white);
+        box-shadow: 0px 0px 10px var(--corp-land-back-light);
 
         &:hover {
             background-color: var(--corp-land-danger-light);
@@ -32,7 +33,7 @@
         }
 
         img {
-            margin-bottom: 2rem;
+            margin-bottom: 0.8rem;
             border-radius: 1rem;
             border-color: var(--corp-land-back-light);
         }
